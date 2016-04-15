@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		469890841CBDADE60035F1DB /* character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469890831CBDADE60035F1DB /* character.swift */; };
+		469890861CBDAF300035F1DB /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469890851CBDAF300035F1DB /* player.swift */; };
+		469890881CBDB07D0035F1DB /* enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469890871CBDB07D0035F1DB /* enemy.swift */; };
+		4698908A1CBDB2610035F1DB /* wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 469890891CBDB2610035F1DB /* wizard.swift */; };
+		4698908C1CBDB3720035F1DB /* devilwizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4698908B1CBDB3720035F1DB /* devilwizard.swift */; };
 		46A4A2A01CB5AF1C00533EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A4A29F1CB5AF1C00533EFF /* AppDelegate.swift */; };
 		46A4A2A21CB5AF1C00533EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A4A2A11CB5AF1C00533EFF /* ViewController.swift */; };
 		46A4A2A51CB5AF1C00533EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A4A2A31CB5AF1C00533EFF /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		469890831CBDADE60035F1DB /* character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = character.swift; sourceTree = "<group>"; };
+		469890851CBDAF300035F1DB /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
+		469890871CBDB07D0035F1DB /* enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enemy.swift; sourceTree = "<group>"; };
+		469890891CBDB2610035F1DB /* wizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wizard.swift; sourceTree = "<group>"; };
+		4698908B1CBDB3720035F1DB /* devilwizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = devilwizard.swift; sourceTree = "<group>"; };
 		46A4A29C1CB5AF1C00533EFF /* rpgobjectoriented.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpgobjectoriented.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46A4A29F1CB5AF1C00533EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46A4A2A11CB5AF1C00533EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +66,15 @@
 			children = (
 				46A4A29F1CB5AF1C00533EFF /* AppDelegate.swift */,
 				46A4A2A11CB5AF1C00533EFF /* ViewController.swift */,
+				469890831CBDADE60035F1DB /* character.swift */,
 				46A4A2A31CB5AF1C00533EFF /* Main.storyboard */,
 				46A4A2A61CB5AF1C00533EFF /* Assets.xcassets */,
 				46A4A2A81CB5AF1C00533EFF /* LaunchScreen.storyboard */,
 				46A4A2AB1CB5AF1C00533EFF /* Info.plist */,
+				469890851CBDAF300035F1DB /* player.swift */,
+				469890871CBDB07D0035F1DB /* enemy.swift */,
+				469890891CBDB2610035F1DB /* wizard.swift */,
+				4698908B1CBDB3720035F1DB /* devilwizard.swift */,
 			);
 			path = rpgobjectoriented;
 			sourceTree = "<group>";
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				469890881CBDB07D0035F1DB /* enemy.swift in Sources */,
+				469890861CBDAF300035F1DB /* player.swift in Sources */,
+				4698908C1CBDB3720035F1DB /* devilwizard.swift in Sources */,
+				469890841CBDADE60035F1DB /* character.swift in Sources */,
 				46A4A2A21CB5AF1C00533EFF /* ViewController.swift in Sources */,
+				4698908A1CBDB2610035F1DB /* wizard.swift in Sources */,
 				46A4A2A01CB5AF1C00533EFF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +306,7 @@
 				46A4A2B01CB5AF1C00533EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
